@@ -1,0 +1,135 @@
+@font-face{
+    font-family: TW-Cen-MT-Condensed;
+    src: url(../FONTS/Tw\ Cen\ MT\ Condensed\ Bold.ttf);
+}
+@font-face{
+    font-family: Poppins-Light;
+    src: url(../FONTS/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face{
+    font-family: Poppins-Bold;
+    src: url(../FONTS/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face{
+    font-family: QuickSand-Light;
+    src: url(../FONTS/QuickSand/Quicksand-Light.ttf);
+}
+
+@font-face{
+    font-family: QuickSand-Bold;
+    src: url(../FONTS/QuickSand/Quicksand-Medium.ttf);
+}
+
+@font-face{
+    font-family: BRUX;
+    src: url(../FONTS/Brux-Font/BRUX.otf);
+}
+
+body{
+    background-color: rgb(70, 52, 52);
+}
+.home{
+    text-align: center;
+    font-size: 1cm;
+    font-family: 'Poppins-Bold';
+    background-color: rgba(163, 163, 163, 0.26);
+    border-radius: 8px;
+    color: white;
+    
+}
+p{
+    font-size: 0.5cm; 
+    background-color: rgb(158, 158, 158);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+}
+
+.download{
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+.download a{
+    font-family: 'Poppins-Light';
+    text-decoration: none;
+    background-color: rgb(69, 165, 74);
+    font-size: 0.7cm;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.5s;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+}
+.dc-server{
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+.dc-server a{
+    font-family: 'Poppins-Light';
+    text-decoration: none;
+    background-color: rgb(79, 69, 165);
+    font-size: 0.7cm;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.5s;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
+}
+.download a:hover{
+    background-color: white;
+    color: black;
+}
+.dc-server a:hover{
+    background-color: white;
+    color: black;
+}
+.whatis{
+    color: rgb(255, 208, 0);
+    text-align: center;
+    background-color: rgba(163, 163, 163, 0.26);
+    font-size: 0.8cm;
+    font-family: 'Poppins-Bold';
+    border-radius: 8px;
+}   
+
+p{
+    color: rgb(216, 216, 216);
+}
+
+.elerhetosegek{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins-Bold';
+    transition: all 0.2s;
+}
+
+.elerhetosegek:hover{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-left: 18cm;
+    margin-right: 18cm;
+    border-radius: 9px;
+    align-items: center;
+    font-family: 'Poppins-Bold';
+}
+.elerhetosegek a{
+    font-size: 0.6cm;
+    text-decoration: none;
+    color: rgb(165, 155, 155);
+    background-color: rgba(77, 73, 67, 0.726);
+    border-radius: 7px;
+    transition: all 0.4s;
+}
+.elerhetosegek a{
+    font-size: 0.6cm;
+    text-decoration: none;
+    color: rgb(165, 155, 155);
+    background-color: rgba(77, 73, 67, 0.726);
+    border-radius: 7px;
+}
+
+.elerhetosegek a:hover{
+    font-size: 0.9cm;
+    color: rgb(209, 204, 204)
+}
