@@ -28,7 +28,7 @@
 }
 
 body{
-    background-color: rgb(70, 52, 52);
+    background-color: rgb(63, 63, 63);
 }
 .home{
     text-align: center;
@@ -46,16 +46,21 @@ p{
 }
 
 .download{
+
     text-align: center;
     align-items: center;
     display: block;
 }
 .download a{
+    padding-right: 0.2cm;
+    padding-left: 0.2cm;
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
     font-family: 'Poppins-Light';
     text-decoration: none;
-    background-color: rgb(69, 165, 74);
+    background-color: rgb(51, 114, 54);
     font-size: 0.7cm;
-    border-radius: 10px;
+    border-radius: 60px;
     color: white;
     transition: all 0.5s;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
@@ -66,21 +71,25 @@ p{
     display: block;
 }
 .dc-server a{
+    padding-right: 0.2cm;
+    padding-left: 0.2cm;
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
     font-family: 'Poppins-Light';
     text-decoration: none;
     background-color: rgb(79, 69, 165);
     font-size: 0.7cm;
-    border-radius: 10px;
+    border-radius: 60px;
     color: white;
     transition: all 0.5s;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.384);
 }
 .download a:hover{
-    background-color: white;
+    background-color: rgba(219, 219, 219, 0.5);
     color: black;
 }
 .dc-server a:hover{
-    background-color: white;
+    background-color: rgba(219, 219, 219, 0.5);
     color: black;
 }
 .whatis{
@@ -100,15 +109,13 @@ p{
     text-align: center;
     color: white;
     font-family: 'Poppins-Bold';
-    transition: all 0.2s;
+    transition: all 0.5s;
 }
 
-.elerhetosegek:hover{
+.elerhetosegek a:hover{
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.411);
-    margin-left: 18cm;
-    margin-right: 18cm;
+    background-color: rgba(53, 53, 53, 0.411);
     border-radius: 9px;
     align-items: center;
     font-family: 'Poppins-Bold';
@@ -116,17 +123,10 @@ p{
 .elerhetosegek a{
     font-size: 0.6cm;
     text-decoration: none;
-    color: rgb(165, 155, 155);
-    background-color: rgba(77, 73, 67, 0.726);
+    color: rgb(170, 170, 170);
+    background-color: rgba(56, 56, 56, 0.726);
     border-radius: 7px;
-    transition: all 0.4s;
-}
-.elerhetosegek a{
-    font-size: 0.6cm;
-    text-decoration: none;
-    color: rgb(165, 155, 155);
-    background-color: rgba(77, 73, 67, 0.726);
-    border-radius: 7px;
+    transition: all 0.5s;
 }
 
 .elerhetosegek a:hover{
